@@ -4,6 +4,7 @@ class Fornax < Formula
   url "https://gitlab.com/Krzysztof-Cieslak/Fornax/uploads/7709e2d57639f8520904f4370d930d98/Fornax.zip"
   sha256 "8a1c15cf00875cda95ffc7a8e2eef413d7963ec2910e7e501f9af2057997945a"
   depends_on "mono"
+  version '0.1.0'
 
   bottle :unneeded
 
