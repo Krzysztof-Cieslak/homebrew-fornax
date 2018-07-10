@@ -10,7 +10,7 @@ class Fornax < Formula
 
   def install
     libexec.install Dir["./*"]
-    (bin/"fornax").write <<-EOS.undent
+    (bin/"fornax").write <<~EOS
       #!/bin/sh
       mono #{libexec}/Fornax.exe "$@"
     EOS
